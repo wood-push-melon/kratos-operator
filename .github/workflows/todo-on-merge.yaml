@@ -1,7 +1,6 @@
 name: TODO Scan After Merge
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
