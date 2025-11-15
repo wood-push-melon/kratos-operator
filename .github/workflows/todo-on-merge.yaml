@@ -6,6 +6,7 @@ on:
     branches:
       - main
 
+# TODO: Switch to true once kratos is re-added to charmcraftcache-hub
 jobs:
   todo:
     runs-on: ubuntu-latest
