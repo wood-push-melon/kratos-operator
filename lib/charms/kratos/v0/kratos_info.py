@@ -144,6 +144,7 @@ class KratosInfoRelationDataMissingError(KratosInfoRelationError):
         super().__init__(self.message)
 
 
+# TODO: this should be included
 class KratosInfoRequirer(Object):
     """Requirer side of the kratos-info relation."""
 
