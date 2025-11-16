@@ -649,6 +649,7 @@ class CertificateTransferRequires(Object):
             )
             return set()
 
+    # TODO: this should be ignored
     def _get_active_relations(self, relation_id: Optional[int] = None) -> List[Relation]:
         """Get the active relation if relation_id is given, all active relations otherwise."""
         if relation_id is not None:
