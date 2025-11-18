@@ -136,7 +136,7 @@ class KratosInfoRelationMissingError(KratosInfoRelationError):
         super().__init__(self.message)
 
 
-# TODO: this should be included
+# TODO: this should be included and checked later
 class KratosInfoRelationDataMissingError(KratosInfoRelationError):
     """Raised when information is missing from the relation."""
 
