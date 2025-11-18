@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        name: "Checkout"
+
       - uses: alstr/todo-to-issue-action@v5
         name: "TODO to Issue"
         with:
